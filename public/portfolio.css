@@ -1,0 +1,69 @@
+/* Embedded portfolio: a quiet index and an uninterrupted stream of work. */
+.embedded-portfolio{--line:#30332e}
+.embedded-portfolio .portfolio-header{padding:25px 0;gap:24px}
+.portfolio-signature{font-size:12px;letter-spacing:.16em;font-weight:500;white-space:nowrap}
+.portfolio-signature span{font-size:11px;vertical-align:super;margin-left:6px}
+.portfolio-intro{display:flex;align-items:baseline;justify-content:space-between;gap:20px;padding:40px 0 30px}
+.portfolio-intro h1{font:500 clamp(32px,4vw,54px)/1.1 Manrope,sans-serif;letter-spacing:-.055em;margin:0}
+.portfolio-intro>span{color:var(--muted);font-size:10px;letter-spacing:.17em}
+.portfolio-layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:5%;align-items:start}
+.portfolio-index{position:sticky;top:28px;padding:22px 0 30px;border-top:1px solid var(--line)}
+.portfolio-index>p{font-size:9px;letter-spacing:.22em;color:var(--muted);margin:0 0 24px}
+.portfolio-index nav{display:flex;flex-direction:column;gap:4px}
+.portfolio-index nav a{display:flex;align-items:center;gap:12px;font-size:13px;padding:12px 0;color:#a5a7a2;transition:color .2s}
+.portfolio-index nav a>span{font-size:9px;color:#6e7468;font-variant-numeric:tabular-nums}
+.portfolio-index nav small{margin-left:auto;font-size:9px;color:#6e7468}
+.portfolio-index nav a:hover,.portfolio-index nav a[aria-current]{color:var(--accent)}
+.index-contact{display:flex;justify-content:space-between;font-size:12px;border-top:1px solid var(--line);padding-top:22px;margin-top:40px}
+.index-contact span{color:var(--accent)}
+.portfolio-work{min-width:0}
+.embed-section{scroll-margin-top:26px;margin:0 0 90px}
+.section-label{border-top:1px solid var(--line);display:flex;align-items:center;gap:14px;padding:19px 0 25px}
+.section-label>span{font-size:10px;color:var(--accent)}
+.section-label h2{margin:0;font:500 22px/1.2 Manrope,sans-serif;letter-spacing:-.6px}
+.section-label small{margin-left:auto;color:var(--muted);font-size:10px;white-space:nowrap}
+.embed-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 24px}
+.embed-project{min-width:0;scroll-margin-top:24px}
+.embed-project.is-featured{grid-column:1/-1}
+.embed-frame{aspect-ratio:404/316;width:100%;background:#1c1e1b;overflow:hidden}
+.embed-frame iframe{display:block;width:100%;height:100%;border:0}
+.embed-caption{display:flex;align-items:start;justify-content:space-between;gap:18px;padding:13px 0 0}
+.embed-caption h3{font-size:14px;font-weight:500;line-height:1.4;margin:0}
+.embed-caption p{font-size:11px;color:var(--muted);margin:4px 0 0}
+.embed-caption>a{font-size:19px;color:var(--accent);padding:0 5px;line-height:1.4}
+.embedded-portfolio .contact-strip{margin-top:10px}
+@media(min-width:1500px){.portfolio-layout{grid-template-columns:250px minmax(0,1050px);justify-content:space-between}}
+@media(max-width:1050px){.portfolio-layout{grid-template-columns:175px minmax(0,1fr);gap:30px}.portfolio-index nav a{font-size:12px;gap:8px}.embed-grid{gap:32px 18px}.section-label h2{font-size:20px}}
+@media(max-width:760px){.portfolio-layout{display:block}.portfolio-index{position:sticky;top:0;z-index:5;background:#121313f5;backdrop-filter:blur(10px);padding:10px 0;margin-bottom:22px;border-bottom:1px solid var(--line)}.portfolio-index>p,.index-contact{display:none}.portfolio-index nav{flex-direction:row;gap:22px;overflow-x:auto;scrollbar-width:thin}.portfolio-index nav a{white-space:nowrap;padding:10px 0;font-size:12px}.portfolio-index nav small,.portfolio-index nav a>span{display:none}.portfolio-intro{padding:28px 0 24px}.embed-section,.embed-project{scroll-margin-top:82px}.embed-section{margin-bottom:58px}.embed-grid{gap:30px 16px}.section-label{padding:16px 0 22px}.portfolio-signature{font-size:10px;letter-spacing:.12em}.portfolio-header nav{gap:20px}.portfolio-header nav a{font-size:13px}}
+@media(max-width:500px){.embed-grid{grid-template-columns:1fr}.portfolio-intro>span{font-size:8px;letter-spacing:.1em}.portfolio-header{flex-wrap:wrap}.portfolio-header nav{gap:18px}.section-label h2{font-size:20px}.embed-caption h3{font-size:13px}.embedded-portfolio .portfolio-header{padding:20px 0}}
+
+.embed-frame-vimeo{aspect-ratio:16/9;background:#000}
+
+.portfolio-header{padding:25px 0;gap:24px}
+@media(max-width:500px){.portfolio-header{padding:20px 0}}
+
+/* Contact details immediately below the sidebar invitation. */
+.index-contact-details{display:flex;flex-direction:column;gap:10px;margin-top:16px;font-size:11px;line-height:1.6;font-style:normal;color:var(--muted)}
+.index-contact-details>a{overflow-wrap:anywhere}
+.index-contact-details a:hover{color:var(--accent)}
+.index-contact-details>div{display:flex;flex-wrap:wrap;gap:16px;margin-top:4px}
+@media(max-width:760px){.portfolio-index{position:static}.index-contact{display:flex;margin-top:20px;padding-top:16px}.index-contact-details{margin-bottom:14px;gap:8px}.index-contact-details>div{margin-top:2px}}
+
+/* Native, keyboard-accessible collapsible project categories. */
+details.embed-section{margin-bottom:12px}
+details.embed-section[open]{margin-bottom:60px}
+summary.section-label{cursor:pointer;list-style:none;padding:22px 0;user-select:none}
+summary.section-label::-webkit-details-marker{display:none}
+summary.section-label::marker{content:""}
+summary.section-label:hover h2{color:var(--accent)}
+summary.section-label:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.section-label .section-toggle{width:24px;height:24px;position:relative;flex-shrink:0;color:var(--accent)}
+.section-toggle:before,.section-toggle:after{content:"";position:absolute;left:5px;top:11px;width:14px;height:1px;background:currentColor}
+.section-toggle:after{transform:rotate(90deg);transition:transform .2s}
+details[open]>.section-label .section-toggle:after{transform:rotate(0deg)}
+@media(max-width:760px){details.embed-section[open]{margin-bottom:36px}summary.section-label{padding:20px 0}}
+@media(prefers-reduced-motion:reduce){.section-toggle:after{transition:none}}
+
+/* Put the contact invitation after the projects on small screens. */
+.mobile-contact{display:none}
+@media(max-width:760px){.desktop-contact{display:none}.mobile-contact{display:block;margin:26px 0 36px}.mobile-contact .index-contact{margin-top:0}.mobile-contact .index-contact-details{font-size:12px}}

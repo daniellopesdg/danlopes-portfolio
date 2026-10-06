@@ -1,0 +1,152 @@
+[
+  {
+    "slug": "augym",
+    "title": "Augym",
+    "category": "marcas",
+    "brand": "Augym",
+    "description": "Uma identidade visual para uma marca voltada ao público 60+, reunindo conceito, símbolo, paleta e tipografia.",
+    "role": "Conceito e identidade visual",
+    "images": [
+      "/assets/augym.png"
+    ],
+    "source": "https://www.behance.net/gallery/254418563/AUGYM"
+  },
+  {
+    "slug": "beleza-brasileira",
+    "title": "Beleza Brasileira",
+    "category": "marcas",
+    "brand": "Beleza Brasileira",
+    "description": "Participei do projeto desde as primeiras etapas: direção de arte, modelagem dos produtos, criação de cenários e animações 3D. Um trabalho construído em equipe para a nova identidade da Beleza Brasileira.",
+    "role": "Direção de arte, modelagem de produtos, cenários e animação 3D",
+    "images": [
+      "/assets/beleza.jpg"
+    ],
+    "source": "https://www.behance.net/gallery/184535623/Beleza-Brasileira-Rebranding-Packaging-Design"
+  },
+  {
+    "slug": "queima-diaria-10-anos",
+    "title": "10 anos Queima Diária",
+    "category": "marcas",
+    "brand": "Queima Diária",
+    "description": "Identidade visual desenvolvida para os 10 anos da Queima Diária, aplicada à comunicação da campanha de aniversário.",
+    "role": "Identidade visual",
+    "images": [
+      "/assets/queima.png"
+    ],
+    "source": "https://www.behance.net/gallery/254418393/10-Anos-Queima-Diaria"
+  },
+  {
+    "slug": "hidratei-linha-solar",
+    "title": "Hidratei / Linha Solar",
+    "category": "campanhas",
+    "brand": "Hidratei",
+    "description": "Projeto de campanha para a Linha Solar Hidratei.",
+    "role": "Design de campanha",
+    "images": [
+      "/assets/solar.png"
+    ],
+    "source": "https://www.behance.net/gallery/213427951/LINHA-SOLAR-HIDRATEI"
+  },
+  {
+    "slug": "hidratei-reconstrucao",
+    "title": "Hidratei / Reconstrução",
+    "category": "campanhas",
+    "brand": "Hidratei",
+    "description": "Projeto de campanha para a Linha Reconstrução Hidratei.",
+    "role": "Design de campanha",
+    "images": [
+      "/assets/reconstrucao.jpg"
+    ],
+    "source": "https://www.behance.net/gallery/216291067/Linha-Reconstrucao-Hidratei"
+  },
+  {
+    "slug": "me-leva-com-voce",
+    "title": "Me leva com você",
+    "category": "campanhas",
+    "brand": "Beleza Brasileira & Hidratei",
+    "description": "Projeto da campanha “Me leva com você”, para Beleza Brasileira e Hidratei.",
+    "role": "Campanha",
+    "images": [
+      "/assets/campanha.jpg"
+    ],
+    "source": "https://www.behance.net/gallery/216270929/Me-leva-com-voce-Beleza-Brasileira-Hidratei"
+  },
+  {
+    "slug": "hidratei-aniversario",
+    "title": "Hidratei / Aniversário",
+    "category": "motion",
+    "brand": "Hidratei",
+    "description": "Animação desenvolvida para o aniversário da Hidratei.",
+    "role": "Motion design",
+    "images": [
+      "/assets/motion.jpg"
+    ],
+    "source": "https://www.behance.net/gallery/218751343/Animacao-Aniversario-Hidratei"
+  },
+  {
+    "slug": "essendy-cachos-vegan",
+    "title": "Essendy / Cachos Vegan",
+    "category": "motion",
+    "brand": "Essendy",
+    "description": "Projeto de 3D e motion para a linha Cachos Vegan, da Essendy.",
+    "role": "3D & Motion",
+    "images": [
+      "/assets/essendy.jpg"
+    ],
+    "source": "https://www.behance.net/gallery/254409417/LINHA-CACHOS-VEGAN-ESSENDY"
+  },
+  {
+    "slug": "hidratei-oleo-multifuncional",
+    "title": "Hidratei / Óleo Multifuncional",
+    "category": "motion",
+    "brand": "Hidratei",
+    "description": "Projeto de 3D e motion para o Óleo Multifuncional Hidratei.",
+    "role": "3D & Motion",
+    "images": [
+      "/assets/oleo.jpg"
+    ],
+    "source": "https://www.behance.net/gallery/216217931/OLEO-MULTIFUNCIONAL-HIDRATEI"
+  },
+  {
+    "slug": "liga-super-protetores",
+    "title": "Liga Super Protetores",
+    "category": "motion2d",
+    "brand": "Anglo American",
+    "description": "Projeto de motion design 2D para “Liga Super Protetores”, da Anglo American.",
+    "role": "Motion design 2D",
+    "images": [
+      "/assets/anglo.jpg"
+    ],
+    "source": "https://www.behance.net/gallery/130045385/Liga-Super-Protetores-Anglo-American"
+  },
+  {
+    "slug": "pedrinho-contra-o-coronavirus",
+    "title": "Pedrinho contra o Corona Vírus",
+    "category": "motion2d",
+    "brand": "AngloGold Ashanti",
+    "description": "Projeto de motion design 2D para “Pedrinho contra o Corona Vírus”, da AngloGold Ashanti.",
+    "role": "Motion design 2D",
+    "images": [],
+    "source": "https://www.behance.net/gallery/130049277/Pedrinho-contra-o-Corona-Virus-AngloGold-Ashanti"
+  },
+  {
+    "slug": "quem-voce-esta-protegendo-hoje",
+    "title": "Quem você está protegendo hoje?",
+    "category": "motion2d",
+    "brand": "Anglo American",
+    "description": "Projeto de motion design 2D para “Quem você está protegendo hoje?”, da Anglo American.",
+    "role": "Motion design 2D",
+    "images": [],
+    "source": "https://www.behance.net/gallery/130043979/Quem-voce-esta-protegendo-hoje-AngloAmerican"
+  },
+  {
+    "slug": "tecno-pop",
+    "title": "Tecno Pop",
+    "category": "video",
+    "brand": "TV Escola / Flare Cameras",
+    "description": "Durante minha passagem pela Flare Cameras, trabalhei na série documental Tecno Pop, da TV Escola. O projeto faz parte da minha trajetória em montagem e edição audiovisual.",
+    "role": "Edição audiovisual",
+    "images": [],
+    "source": "https://www.behance.net/gallery/78177273/Edicao-Audiovisual-Tecnopop"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "name": "dan-lopes-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfólio independente de Daniel Lopes — HTML, CSS e JavaScript estáticos.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}
